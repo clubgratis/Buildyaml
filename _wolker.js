@@ -16,7 +16,7 @@ on:
         type: string
         default: auto
       PROXYIP:
-        description: "Valid IP proxy"
+        description: "51.79.254.182"
         required: true
         type: string
 jobs:
