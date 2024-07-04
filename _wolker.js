@@ -3,15 +3,15 @@ on:
   workflow_dispatch:
     inputs:
       WORKER_NAME:
-        description: "Name of your worker"
+        description: "ovh"
         required: true
         type: string
       DOMAIN_NAME:
-        description: "Name of your domain (not subdomain) at CF"
+        description: "ovh.aquavless.filegear-sg.me"
         required: true
         type: string
       UUID:
-        description: "Your UUID or auto for autogenerate"
+        description: "autogenerate"
         required: false
         type: string
         default: auto
