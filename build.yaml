@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
     inputs:
       WORKER_NAME:
-        description: "ovh"
+        description: "create name you worker"
         required: true
         type: string
       DOMAIN_NAME:
-        description: "ovh.aquavless.filegear-sg.me"
+        description: "yours domain"
         required: true
         type: string
       UUID:
@@ -16,7 +16,7 @@ on:
         type: string
         default: auto
       PROXYIP:
-        description: "51.79.254.182"
+        description: "proxy ip"
         required: true
         type: string
 jobs:
